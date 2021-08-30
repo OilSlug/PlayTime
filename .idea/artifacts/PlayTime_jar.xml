@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PlayTime:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PlayTime_jar</output-path>
+    <root id="archive" name="PlayTime.jar">
+      <element id="module-output" name="PlayTime" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.22/mysql-connector-java-8.0.22.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

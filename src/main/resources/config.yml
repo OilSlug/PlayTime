@@ -1,0 +1,11 @@
+# Playtime messages
+messages:
+  prefix: "&b&lPlayTime&8: &7"
+
+# Link playtime to a mysql database by filling out your database information
+mysql:
+  username: "username"
+  password: "password"
+  port: 3306
+  host: "localhost"
+  database: "PlayTime"

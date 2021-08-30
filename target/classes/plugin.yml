@@ -1,0 +1,29 @@
+name: PlayTime
+version: 1.0
+author: OilSlug
+main: cc.oilslug.PlayTime
+
+commands:
+    #Administrator command
+  modifyplaytime:
+    description: "An administrator command for playtime"
+
+    #player commands
+  playtime:
+    description: "Main command for playtime"
+  topplaytime:
+    description: "yes"
+
+permissions:
+    #Player Commands
+  playtime.commands.self:
+    default: op
+  playtime.commands.top:
+    default: op
+
+    #Administrator commands
+  playtime.commands.see:
+    default: op
+  playtime.commands.modify:
+    default: op
+
